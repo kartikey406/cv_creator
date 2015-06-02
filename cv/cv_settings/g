@@ -1,0 +1,4 @@
+body.append(docx.heading('Resume of', 3))
+    body.append(docx.heading(data['resume'].name, 1))
+    body.append(docx.heading(data['resume'].email, 2))
+    body.append(docx.heading(data['resume'].url, 2))
